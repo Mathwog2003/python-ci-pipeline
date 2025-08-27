@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/gowtham/python-ci-pipeline.git'
+                git branch: 'main', url: 'https://github.com/Mathwog2003/python-ci-pipeline.git'
             }
         }
         
